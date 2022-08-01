@@ -1,0 +1,25 @@
+// Import fonts
+@import url(../css/main-fonts.css);
+
+// Import custom css;
+@import url(../css/mnStyle.css);
+
+// Import the function & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+$mnutrition-theme-colors: (
+  "m-primary": #94ba47,
+  "m-secondary": #f3eee9,
+  "m-secondary-dark": #e4dbd2,
+  "m-dark": #959293,
+  "m-text-selected-color": #9cbf55,
+  "m-text-color": #4c4745,
+  "m-primary-opacity": #c9dca2,
+);
+
+$theme-colors: map-merge($mnutrition-theme-colors, $theme-colors);
+
+// Import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

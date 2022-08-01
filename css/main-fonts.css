@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "PlayfairDisplay-Italic";
+  src: url(../assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url(../assets/fonts/PlayfairDisplay-VariableFont_wght.ttf)
+    format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../assets/fonts/Poppins-Bold.otf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  src: url(../assets/fonts/Poppins-ExtraBold.otf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins-Light";
+  src: url(../assets/fonts/Poppins-Light.otf) format("truetype");
+}
